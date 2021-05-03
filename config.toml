@@ -1,0 +1,82 @@
+baseURL = "http://westernsydneyoodles.com.au/"
+languageCode = "en-us"
+title = "Western Sydney Oodles"
+theme = "timer-hugo"
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Navbar Menus
+[[menu.main]]
+name    = "Home"
+url     = "/"
+weight  = 1
+[[menu.main]]
+name    = "Contact"
+url     = "contact"
+weight  = 6
+
+# Site Params
+[params]
+home = "Home"
+logo = "images/wsoodles-logo.png"
+dateFormat = "6 January 2006"
+# Meta data
+description = "Western Sydney Oodles Dog Breeders"
+author = "Clarkey"
+# Google Analitycs
+# googleAnalitycsID = "Your ID"
+# contact form action
+contactFormAction = "https://formspree.io/f/xqkweddk" # contact form works with https://formspree.io
+
+# Banner Section
+[params.banner]
+enable  = true
+bgImage = "images/dog1.jpg"
+heading = "Western Sydney based breeder of"
+description = "See below for currently available puppies"
+# button
+# btn     = true
+# btnText = "Download More"
+# btnURL  = "https://themefisher.com/"
+
+# flip text
+[[params.banner.flipText]]
+title   = "Spoodles"
+[[params.banner.flipText]]
+title   = "Groodles"
+[[params.banner.flipText]]
+title   = "Cavoodles"
+
+# Homepage About Section
+[params.about]
+enable  = true
+title   = "ABOUT US"
+content = "Western Sydney Oodles is a Dog Breeder based in the Penrith area of Western Sydney. We breed dogs, with a focus on making the transition from our loving home to yours as easy as possible. We strive to breed the best animals we can, educate their new owners and ensure these precious creatures get the love, care and attention they deserve. Contact us to find out more about our methods and philosophy."
+image   = "images/dog2.jpg"
+
+# Call to Action
+[params.cta]
+enable  = true
+title   = "WANT MORE INFOMRATION?"
+content = "Please contact us to find out any more information about our puppies."
+btnText = "Contact us"
+btnURL  = "/contact"
+
+# Portfolio Section On Homepage
+[params.portfolio]
+enable  = true
+title   = "Available Puppies"
+subtitle= "Please contact us for more inforation on any of the following puppies"
+
+# social icon
+#[[params.socialIcon]]
+#icon = "ion-social-facebook"
+#url = "#"
+
+#[[params.socialIcon]]
+#icon = "ion-social-instagram"
+#url = "#"
+
+#[[params.socialIcon]]
+#icon = "ion-social-linkedin"
+#url = "#"
