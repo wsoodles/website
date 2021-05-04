@@ -57,7 +57,7 @@ image   = "images/dog2.jpg"
 # Call to Action
 [params.cta]
 enable  = true
-title   = "WANT MORE INFOMRATION?"
+title   = "WANT MORE INFORMATION?"
 content = "Please contact us to find out any more information about our puppies."
 btnText = "Contact us"
 btnURL  = "/contact"
