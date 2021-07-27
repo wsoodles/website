@@ -51,8 +51,8 @@ title   = "Cavoodles"
 [params.about]
 enable  = true
 title   = "ABOUT US"
-content = "Western Sydney Oodles is a Dog Breeder based in the Penrith area of Western Sydney. We breed dogs, with a focus on making the transition from our loving home to yours as easy as possible. We strive to breed the best animals we can, educate their new owners and ensure these precious creatures get the love, care and attention they deserve. Contact us to find out more about our methods and philosophy."
-image   = "images/dog2.jpg"
+content = "Western Sydney Oodles is a Dog Breeder based in the Penrith area of Western Sydney. We breed dogs, with a focus on making the transition from our loving home to yours as easy as possible. We strive to breed the best animals we can, educate their new owners and ensure these precious creatures get the love, care and attention they deserve. Contact us to find out more about our methods and philosophy.<br>Our AAPDB Breeder Number is 17619"
+image   = "images/aapdb.jpg"
 
 # Call to Action
 [params.cta]
